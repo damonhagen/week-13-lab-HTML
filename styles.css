@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+
+div {
+    height:300px;
+}
+
+.div1 {
+    background-color: blue;
+    height: 300px;
+    width: 100%;
+    font-size:16px
+}
+
+.div2 {
+    background-color: yellow;
+    height:300px;
+    width: 100%;
+    font-size:16px
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .div1 {
+        width: 100%;
+        display: block;
+        background-color: white;
+    }
+    .div2 {
+        width: 100%;
+        display: block;
+        background-color: white;
+    }
+
+}
+
+
+@media only screen and (min-width:1200px) {
+    .div1 {
+        display: inline-block;
+        width: 49% ; 
+        font-size: 20px;
+        background-color: white;
+    }.div2 {
+        display: inline-block;
+        width: 49% ; 
+        font-size: 20px;
+        background-color: white;
+    }
+
+}
